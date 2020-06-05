@@ -8,30 +8,30 @@
   </head>
   <body>
     <header>
-      <div id="encabezado">
-        <h1>LOS MEJORES<br> INSTRUMENTOS MUSICALES <br>LOS ENCUENTRAS AQUI</h1>
+      <div id="headerPhoto">
+        <h1>LOS MEJORES<br><span id="strongWords">INSTRUMENTOS MUSICALES</span><br>LOS ENCUENTRAS AQUI</h1>
       </div>
       <nav id="barNav">
         <ul>
-          <li>INICIO</li>
-          <li>QUIÉNES SOMOS</a></li>
-          <li><img id="logo" src="images/musicShopLogo.png" alt="Music Shop Logo"></li>
-          <li id="actualPage">TIENDA</li>
-          <li>CONTACTO</li>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">QUIÉNES SOMOS</a></li>
+          <!--<li><img id="logo" src="images/musicShopLogo.png" alt="Music Shop Logo"></li>-->
+          <li id="actualPage"><a href="#">TIENDA</a></li>
+          <li><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section id="instruments">
-        <h1>INSTRUMENTOS MUSICALES</h1>
+        <h1 class="firstTitle">INSTRUMENTOS MUSICALES</h1>
         <div id="items" class="flex-container">
           <section id="instrument1" class="itemsToBuy">
             <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
             <h1>UKELELE SOPRANO</h1>
             <p>Kalani</p>
             <h2>$125.000</h2>
-            <button class="button" type="button" id="btnShop">COMPRAR</button>
+            <button class="button" type="button" class="btnBuy">COMPRAR</button>
           </section>
           <section id="instrument2" class="itemsToBuy">
             <img src="images/instrumentSaxo.png" alt="Saxofon">
@@ -51,14 +51,14 @@
       </section>
 
       <section id="payment" class="flex-container">
-        <section id="itemToShop">
+        <section id="itemToShop" class="itemToShop">
           <img src="images/instrumentUkelele.png" alt="Ukelele Kalani">
           <h1>UKELELE SOPRANO</h1>
           <p>Kalani</p>
           <h2>$125.000</h2>
         </section>
         <section id="paymentMethod" class="container">
-          <h1>COMPRUEBA TU MÉTODO DE PAGO</h1>
+          <h1 class="firstTitle">COMPRUEBA TU MÉTODO DE PAGO</h1>
           <div id="creditCard" class="creditCard">
                 <div class="logoBrand">
                   <img src="images/tc/logoVisa.png" alt="">
@@ -80,7 +80,7 @@
           </div>
           <div id="formDataCard">
             <form action="" id="formCard" class="formCard">
-              <label for="card">Número de Tarjeta de Crédito</label>
+              <label for="card">Número Tarjeta de Crédito</label>
               <input type="number" name="cardNumber" id="cardNumber" required>
               <label for="inputNombre">Nombre del Titular</label>
               <input type="text" autocomplete="off" id="inputNombre">
@@ -117,7 +117,6 @@
     </main>
 
   <footer>
-    <div class="flex-container">
       <img class="socialMediaImg" src="images/socialMail.png" alt="E-mail">
       <p>musicshop@gmail.com</p>
       <img class="socialMediaImg" src="images/socialPhone.png" alt="Phone">
@@ -126,7 +125,6 @@
       <img class="socialMediaImg" src="images/socialInstagram.png" alt="Instagram">
       <img class="socialMediaImg" src="images/socialWhatsapp.png" alt="Whatsapp">
       <img class="socialMediaImg" src="images/socialTwitter.png" alt="Twitter">
-    </div>
   </footer>
 
   <script src="index.js" type="module"></script>
