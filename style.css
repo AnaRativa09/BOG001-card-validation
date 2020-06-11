@@ -93,18 +93,16 @@ nav ul li a:hover{
   width: 80%;
 }
 
-button{
+button {
     background-color: #00A1A1;
     border: none;
     border-radius: 12px;
     color: #FFFFFF;
     font-family: Chau Philomene One;
     padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2% 0;
     cursor: pointer;
     transition-duration: 0.4s;
 }
@@ -134,6 +132,8 @@ button{
   background-color: #7F7F7F;
   color: #FFFFFF;
   border-radius: 15px;
+  padding: 10px 0;
+  margin: 2%;
 }
 
 .logoBrand{
@@ -157,11 +157,14 @@ button{
   color: #FFFFFF;
   font-size: 25px;
   text-transform: uppercase;
-  padding: 10px;
+}
+
+.dataNumber, .chip{
+  margin: 12px 15px;
 }
 
 #creditCard div{
-  padding: 0 15px;
+  margin: 0 15px;
 }
 
 #data{
@@ -169,14 +172,9 @@ button{
 }
 
 /*--------- ESTILOS FORM ---------*/
-#formDataCard{
-  color: #575757;
-  margin: 20px
-}
-
 #formDataCard label, #formDataCard input, #formCard button{
   display: block;
-  margin: 7%;
+  margin: 7% 0;
   text-align: left;
 }
 
@@ -200,7 +198,7 @@ footer{
 .socialMediaImg{
   height: 3%;
   width: 3%;
-  padding: 1%;
+  margin: 1%;
 }
 
 /*--------- ESTILOS DOM > JS ---------*/
